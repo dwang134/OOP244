@@ -1,0 +1,27 @@
+#Dylan Wang
+#OOP244SBB
+#StudentNum= 114099187
+#Date: 01/27/2019
+#w2_at_home.txt
+
+Workshop completion:
+
+1)Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory?
+
+	We use another memory allocation because the allocation we use from before, the pKingdom already has the memory from the user. So therefore to use the memory you would have to allocate it again. We also want to deallocate the whole array and not just the new element because we want to overwrite the rest of the array to keep the data type consistent, instead of jumping between dynamic memory and int types or float types.
+
+2) The Kingdom structure stores the name of the kingdom in an array of charac- ters. At the end of the program, we do not use the delete operator to deal- locate the memory occupied by the name itself. Why don’t we need to use the delete e operator on this array itself?
+
+	Since the Kingdom pointer is the actual memory that is deallocated, the memory space that the kingdom takes up is also from the similar type address of Kingdom pointer’s address. If we deallocate the Kingdom pointer the phone array will also get deallocated.
+	
+
+3) There are two display(...) function definitions. How does the compiler know which definition to call from your main function?
+	By overloading the display function, we actually gave two different definitions to the same function. One with the parameter (pPhones[0]), one with parameter of (pPhones, count). The linker that executes the function identifies which function to call based on the parameter given.
+
+4) Describe what have you have learned in this workshop.
+	During this week’s lab session we learn of new ways to allocate memory so when we input new elements inside the array it will have enough memory to store what we want. 
+
+Quiz reflection: 
+N/A at the time. 
+
+

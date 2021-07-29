@@ -1,0 +1,21 @@
+//Name: Dylan Wang
+//Course: OOP244SAA
+//StudentNum:  114099187
+//Date: 07/26/2019
+//File name: reflect.txt
+
+Reflection:
+
+1. What is the difference between an abstract base class and a concrete class?
+
+	In the base class you are able to declare member functions, however it doesn't necessarily mean you have to define them, virtual function is an example of a class that can be declared but doesn't have to be defined. Concrete class solely rely on the functionality of itself inside the class, it doesn't require any other help functions from derived classes.
+
+2. Identify the functions that shadow functions of the same name in your solution?
+
+ChequingAccount::credit(double amount), ChequingAccount::debit(double amount), there are also other functions that shadow functions of same name but they don’t have a base function.
+
+
+3. Explain what have you learned in this workshop.
+
+We took more practice of using inheritance from parent to child class, virtual functions. But this week’s workshop mainly focuses on the concept of how we can call parent class function inside derive function despite the fact that they have the same name; using functions to shadow functions that are the same name. 
+

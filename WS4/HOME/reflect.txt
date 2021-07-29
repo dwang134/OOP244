@@ -1,0 +1,27 @@
+#Dylan Wang
+#OOP244SAA
+#StudentNum= 114099187
+#Date: 06/10/2018
+#reflect.txt
+
+Workshop Reflection: 
+
+1) What is a safe empty state? Could you define a safe empty state that differs from the empty state that you defined?
+	The safe empty state describes an object that doesn't contain any garbage values or values that are not predefined by the user, we set conditions that ensure the program does so according to what kind of data we want to save, this basically means that once the object has been constructed it should ready for use right away.
+2) Identify the parts of your source code where to minimized code duplication.
+
+During the lab and the home part before we start writing anything in Traveler.cpp the workshop document would always require us to implement the default constructor, this is so that we can initialize any invalid parameters to an empty state and this is how we minimize code duplication.
+3) The canTravelWith(...) member function accesses the private data of theobject referenced in its parameter. Explain why C++ allows this access.
+
+canTravelerWith member function is able to access the private data of the object because object are passed back as a reference to the canTravelerWith function.
+4) What statement did you add to ensure that the strncpy(...) function exe-cutes correctly?
+
+I added the a line that sets the size of the array -1 equal to the null terminator, by doing this it gives program a response so that we do not want to print anything after index 18, which gives us the output we wanted.
+
+Quiz Reflection: 
+
+Corrected
+3.2.3.1$$$C++, 707
+&&&xyz, 10
+
+
